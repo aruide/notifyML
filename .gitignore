@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+airflow_env/*
+airflow/*
+!airflow/dags/
+!airflow/airflow.cfg
