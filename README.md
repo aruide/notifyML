@@ -1,3 +1,5 @@
+![alt text](images/airflow-logo.jpg)
+
 # notifyML
 
 notifyML est un projet Python qui combine des workflows Airflow et une API Flask pour orchestrer et notifier des pipelines de machine learning.
