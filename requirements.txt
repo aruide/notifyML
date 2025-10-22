@@ -1,0 +1,8 @@
+flask
+apache-airflow[postgres] 
+psycopg2
+Flask-SQLAlchemy
+SQLAlchemy
+apache-airflow-providers-fab
+pandas
+scikit-learn
