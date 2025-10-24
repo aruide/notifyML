@@ -117,6 +117,10 @@ airflow standalone
 
 > quand le `airflow standalone` est lancer, cela creer un fichier *`airflow/simple_auth_manager_passwords.json.generated`* qui donne l'identifiant et le mot de passe
 
+>[!WARNING]
+>assurez-vous d'avoir utiliser la commande `./update_airflow_path.sh` pour changer le chemin des dossiers dans **airflow.cfg**,\
+>si le fichier **airflow.cfg** n'existe pas faire la commande `airflow db migrate`
+
 - Gestion de la base de données
 ```bash
 # Initialiser la base de données
@@ -124,6 +128,11 @@ airflow db migrate
 
 # Réinitialiser la base de données (attention: supprime toutes les données!)
 airflow db reset
+```
+
+- Changer le chemin des dossiers dans airflow.cfg
+```bash
+./update_airflow_path.sh
 ```
 
 ## Développement
